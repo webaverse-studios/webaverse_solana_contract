@@ -1,0 +1,14 @@
+[features]
+seeds = false
+[programs.mainnet]
+sol_mint_nft = "BUZVwXZm1v7bbJ8epdr3UcThXK3wpN1y1HTXpnJAivhd"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "mainnet"
+wallet = "/home/erik/.config/solana/wallet_real.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"
